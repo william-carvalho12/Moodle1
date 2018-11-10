@@ -93,7 +93,7 @@ $CFG->dboptions = array(
 // If you need both intranet and Internet access please read
 // http://docs.moodle.org/en/masquerading
 
-$CFG->wwwroot   = 'http://caradainformatica.com.br/moodle';
+$CFG->wwwroot   = 'http://caradainformatica.com.br/ead';
 
 
 //=========================================================================
