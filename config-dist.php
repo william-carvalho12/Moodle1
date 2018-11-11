@@ -40,10 +40,10 @@ $CFG = new stdClass();
 
 $CFG->dbtype    = 'pgsql';      // 'pgsql', 'mariadb', 'mysqli', 'sqlsrv' or 'oci'
 $CFG->dblibrary = 'native';     // 'native' only at the moment
-$CFG->dbhost    = 'mysql995.umbler.com';  // eg 'localhost' or 'db.isp.com' or IP
-$CFG->dbname    = 'eadmoodle';     // database name, eg moodle
-$CFG->dbuser    = 'eadmoodle';   // your database username
-$CFG->dbpass    = 'eadmoodle2018';   // your database password
+$CFG->dbhost    = 'localhost';  // eg 'localhost' or 'db.isp.com' or IP
+$CFG->dbname    = 'moodle';     // database name, eg moodle
+$CFG->dbuser    = 'username';   // your database username
+$CFG->dbpass    = 'password';   // your database password
 $CFG->prefix    = 'mdl_';       // prefix to use for all table names
 $CFG->dboptions = array(
     'dbpersist' => false,       // should persistent database connections be
@@ -93,7 +93,7 @@ $CFG->dboptions = array(
 // If you need both intranet and Internet access please read
 // http://docs.moodle.org/en/masquerading
 
-$CFG->wwwroot   = 'http://caradainformatica.com.br/ead';
+$CFG->wwwroot   = 'http://example.com/moodle';
 
 
 //=========================================================================
@@ -109,7 +109,7 @@ $CFG->wwwroot   = 'http://caradainformatica.com.br/ead';
 //
 // - On Windows systems you might specify something like 'c:\moodledata'
 
-$CFG->dataroot  = '/public/moodledata';
+$CFG->dataroot  = '/home/example/moodledata';
 
 
 //=========================================================================
